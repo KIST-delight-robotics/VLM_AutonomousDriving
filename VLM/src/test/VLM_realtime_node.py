@@ -14,12 +14,12 @@ import json
 import csv
 
 
-class onetalk_Node(Node):
+class VLMtalk_Node(Node):
     def __init__(self):
-        super().__init__('onetalk_node')
+        super().__init__('VLMtalk_node')
         self.start_time = time.time()  # 시작 시간
-        self.get_logger().info("onetalk 시작!")
-        self.publisher = self.create_publisher(String, '/one_talk_phrase', 10)
+        self.get_logger().info("VLMtalk 시작!")
+        self.publisher = self.create_publisher(String, '/VLM_talk_phrase', 10)
         
         # 실시간 이미지 토픽 등록
         self.bridge = CvBridge()
