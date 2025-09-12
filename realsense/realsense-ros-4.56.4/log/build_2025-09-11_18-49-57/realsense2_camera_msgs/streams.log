@@ -1,0 +1,475 @@
+[0.018s] Invoking command in '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.215s] -- The CXX compiler identification is GNU 11.4.0
+[0.237s] -- Detecting C compiler ABI info
+[0.373s] -- Detecting C compiler ABI info - done
+[0.397s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.398s] -- Detecting C compile features
+[0.400s] -- Detecting C compile features - done
+[0.411s] -- Detecting CXX compiler ABI info
+[0.559s] -- Detecting CXX compiler ABI info - done
+[0.585s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.586s] -- Detecting CXX compile features
+[0.588s] -- Detecting CXX compile features - done
+[0.604s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.886s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.062s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.069s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.082s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.207s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.228s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.247s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.988s] -- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.996s] -- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.004s] -- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.013s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.419s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.425s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.485s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.485s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.486s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.486s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.524s] -- Found PythonExtra: .so  
+[3.710s] -- Found ament_cmake_flake8: 0.12.14 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.715s] -- Found ament_cmake_pep257: 0.12.14 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.738s] -- Configuring done
+[3.833s] -- Generating done
+[3.854s] -- Build files have been written to: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/build/realsense2_camera_msgs
+[3.876s] Invoked command in '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs
+[3.881s] Invoking command in '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/build/realsense2_camera_msgs -- -j12 -l12
+[3.958s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.976s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.993s] [  2%] Built target ament_cmake_python_copy_realsense2_camera_msgs
+[4.407s] running egg_info
+[4.408s] creating realsense2_camera_msgs.egg-info
+[4.409s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[4.409s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[4.409s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[4.410s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[4.416s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[4.417s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[4.480s] [  2%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg
+[5.382s] [  2%] Built target realsense2_camera_msgs__cpp
+[5.401s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.401s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.401s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.409s] [ 10%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o[0m
+[5.409s] [ 10%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o[0m
+[5.410s] [ 10%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o[0m
+[5.412s] [ 10%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[5.414s] [ 11%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[5.427s] [ 12%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c.o[0m
+[5.430s] [ 14%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c.o[0m
+[5.431s] [ 14%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c.o[0m
+[5.699s] [ 16%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_generator_c.so[0m
+[5.767s] [ 16%] Built target realsense2_camera_msgs__rosidl_generator_c
+[5.784s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.785s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.785s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.249s] [ 26%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[6.249s] [ 26%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[6.250s] [ 27%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/calib_config_write__type_support.cpp.o[0m
+[6.250s] [ 27%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/device_info__type_support.cpp.o[0m
+[6.251s] [ 27%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[6.251s] [ 27%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/calib_config_read__type_support.cpp.o[0m
+[6.251s] [ 27%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[6.691s] [ 28%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp.o[0m
+[6.721s] [ 29%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[6.728s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[6.732s] [ 34%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/rgbd__type_support.cpp.o[0m
+[6.732s] [ 34%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp.o[0m
+[6.732s] [ 34%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[6.742s] [ 35%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/action/triggered_calibration__type_support.cpp.o[0m
+[6.766s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[6.778s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.cpp.o[0m
+[6.791s] [ 39%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[6.843s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[6.854s] [ 41%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o[0m
+[6.878s] [ 42%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/device_info__type_support.cpp.o[0m
+[6.915s] [ 43%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/calib_config_read__type_support.cpp.o[0m
+[6.998s] [ 44%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/calib_config_write__type_support.cpp.o[0m
+[7.002s] [ 45%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[7.087s] [ 47%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/action/triggered_calibration__type_support.cpp.o[0m
+[7.261s] [ 48%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/imu_info__type_support.c.o[0m
+[7.281s] [ 49%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_c.so[0m
+[7.418s] [ 49%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[7.424s] [ 50%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[7.426s] [ 51%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o[0m
+[7.438s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[7.444s] [ 54%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[7.453s] [ 55%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.cpp.o[0m
+[7.494s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/rgbd__type_support_c.cpp.o[0m
+[7.498s] [ 57%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.cpp.o[0m
+[7.509s] [ 58%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[7.528s] [ 59%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/device_info__type_support_c.cpp.o[0m
+[7.572s] [ 62%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/calib_config_read__type_support_c.cpp.o[0m
+[7.573s] [ 62%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/rgbd__type_support.c.o[0m
+[7.668s] [ 63%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/device_info__type_support.c.o[0m
+[7.682s] [ 64%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_cpp.so[0m
+[7.684s] [ 65%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[7.743s] [ 66%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.c.o[0m
+[7.769s] [ 67%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/rgbd__type_support.cpp.o[0m
+[7.836s] [ 67%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[7.868s] [ 70%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[7.870s] [ 70%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.c.o[0m
+[7.947s] [ 71%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.c.o[0m
+[8.063s] [ 73%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[8.063s] [ 73%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/calib_config_write__type_support_c.cpp.o[0m
+[8.070s] [ 74%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/action/detail/triggered_calibration__type_support_c.cpp.o[0m
+[8.144s] [ 74%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[8.153s] [ 75%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/calib_config_read__type_support.cpp.o[0m
+[8.162s] [ 77%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/calib_config_write__type_support.cpp.o[0m
+[8.186s] [ 78%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/action/detail/dds_fastrtps/triggered_calibration__type_support.cpp.o[0m
+[8.630s] [ 79%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.773s] [ 79%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[8.790s] [ 80%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.926s] [ 80%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[9.210s] [ 81%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.350s] [ 81%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[9.392s] [ 81%] Built target realsense2_camera_msgs
+[9.435s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.742s] [ 82%] Built target realsense2_camera_msgs__py
+[11.781s] [ 86%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c.o[0m
+[11.781s] [ 86%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c.o[0m
+[11.781s] [ 86%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c.o[0m
+[11.781s] [ 88%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c.o[0m
+[11.782s] [ 88%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_rgbd_s.c.o[0m
+[11.782s] [ 89%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_calib_config_read_s.c.o[0m
+[11.782s] [ 90%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/action/_triggered_calibration_s.c.o[0m
+[11.782s] [ 91%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_calib_config_write_s.c.o[0m
+[12.056s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so[0m
+[12.140s] [ 93%] Built target realsense2_camera_msgs__rosidl_generator_py
+[12.181s] [ 95%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.182s] [ 96%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.182s] [ 96%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.432s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.432s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.449s] [100%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.519s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[12.519s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[12.546s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[12.575s] Invoked command in '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/build/realsense2_camera_msgs -- -j12 -l12
+[12.596s] Invoking command in '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/build/realsense2_camera_msgs
+[12.614s] -- Install configuration: ""
+[12.614s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs
+[12.615s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[12.615s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[12.615s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.h
+[12.616s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.h
+[12.616s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.617s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.h
+[12.617s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.h
+[12.617s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[12.617s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.c
+[12.618s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.h
+[12.618s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.h
+[12.618s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.c
+[12.619s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.c
+[12.619s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
+[12.619s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.h
+[12.620s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.c
+[12.620s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.h
+[12.620s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.h
+[12.620s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
+[12.621s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.h
+[12.621s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.h
+[12.621s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.h
+[12.621s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.h
+[12.622s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.h
+[12.622s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action
+[12.622s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/triggered_calibration.h
+[12.623s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail
+[12.623s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.h
+[12.623s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__functions.c
+[12.624s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__functions.h
+[12.624s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__struct.h
+[12.624s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[12.625s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/calib_config_read.h
+[12.625s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/calib_config_write.h
+[12.625s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.h
+[12.625s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[12.626s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.h
+[12.626s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__functions.c
+[12.626s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__functions.h
+[12.626s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__struct.h
+[12.627s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.h
+[12.627s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__functions.h
+[12.627s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.h
+[12.628s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.h
+[12.628s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__functions.c
+[12.629s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.h
+[12.629s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.c
+[12.629s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__struct.h
+[12.629s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh
+[12.630s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv
+[12.630s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so
+[12.630s] -- Set runtime path of "/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so" to ""
+[12.631s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[12.631s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[12.631s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.632s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[12.632s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[12.632s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[12.633s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[12.633s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h
+[12.633s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action
+[12.634s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail
+[12.634s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__rosidl_typesupport_fastrtps_c.h
+[12.634s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[12.634s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[12.635s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__rosidl_typesupport_fastrtps_c.h
+[12.635s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__rosidl_typesupport_fastrtps_c.h
+[12.635s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[12.635s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[12.636s] -- Set runtime path of "/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[12.636s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[12.636s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[12.637s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.637s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[12.637s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.c
+[12.638s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.c
+[12.638s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[12.638s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h
+[12.639s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[12.639s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.c
+[12.639s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[12.639s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c
+[12.640s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action
+[12.640s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail
+[12.640s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.c
+[12.641s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__rosidl_typesupport_introspection_c.h
+[12.641s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[12.641s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[12.642s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__rosidl_typesupport_introspection_c.h
+[12.642s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.c
+[12.642s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h
+[12.643s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.c
+[12.643s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__rosidl_typesupport_introspection_c.h
+[12.643s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.c
+[12.643s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so
+[12.644s] -- Set runtime path of "/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[12.644s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so
+[12.644s] -- Set runtime path of "/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so" to ""
+[12.645s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[12.645s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[12.645s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.hpp
+[12.646s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.hpp
+[12.646s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.hpp
+[12.646s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.646s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.hpp
+[12.647s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[12.647s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.hpp
+[12.647s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__traits.hpp
+[12.648s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp
+[12.648s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.hpp
+[12.648s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__traits.hpp
+[12.649s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.hpp
+[12.649s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__builder.hpp
+[12.650s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp
+[12.650s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp
+[12.650s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.hpp
+[12.650s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.hpp
+[12.651s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.hpp
+[12.651s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp
+[12.651s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp
+[12.651s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__builder.hpp
+[12.652s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp
+[12.652s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action
+[12.652s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/triggered_calibration.hpp
+[12.653s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail
+[12.653s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.hpp
+[12.653s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__traits.hpp
+[12.653s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__struct.hpp
+[12.654s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__builder.hpp
+[12.654s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[12.654s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/calib_config_write.hpp
+[12.655s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.hpp
+[12.655s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/calib_config_read.hpp
+[12.655s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[12.656s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__builder.hpp
+[12.656s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__builder.hpp
+[12.656s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__struct.hpp
+[12.656s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__builder.hpp
+[12.657s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.hpp
+[12.657s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__traits.hpp
+[12.657s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__struct.hpp
+[12.658s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__traits.hpp
+[12.658s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.hpp
+[12.659s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__traits.hpp
+[12.659s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.hpp
+[12.659s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.hpp
+[12.660s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[12.660s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[12.660s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.660s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[12.660s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[12.661s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[12.661s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[12.661s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/dds_fastrtps
+[12.661s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp
+[12.661s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action
+[12.662s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail
+[12.662s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__rosidl_typesupport_fastrtps_cpp.hpp
+[12.662s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/dds_fastrtps
+[12.662s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[12.663s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[12.663s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[12.663s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/dds_fastrtps
+[12.663s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__rosidl_typesupport_fastrtps_cpp.hpp
+[12.664s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.664s] -- Set runtime path of "/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.664s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[12.664s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[12.665s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[12.665s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[12.665s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.cpp
+[12.665s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[12.665s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp
+[12.666s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp
+[12.666s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[12.666s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp
+[12.666s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[12.667s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action
+[12.667s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail
+[12.667s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__rosidl_typesupport_introspection_cpp.hpp
+[12.667s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/action/detail/triggered_calibration__type_support.cpp
+[12.667s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[12.668s] -- Up-to-date: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[12.668s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__type_support.cpp
+[12.668s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[12.668s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__rosidl_typesupport_introspection_cpp.hpp
+[12.669s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_read__rosidl_typesupport_introspection_cpp.hpp
+[12.669s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp
+[12.669s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/calib_config_write__type_support.cpp
+[12.669s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[12.669s] -- Set runtime path of "/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[12.670s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so
+[12.670s] -- Set runtime path of "/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[12.670s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh
+[12.670s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv
+[12.670s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.56.4-py3.10.egg-info
+[12.671s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.56.4-py3.10.egg-info/dependency_links.txt
+[12.671s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.56.4-py3.10.egg-info/SOURCES.txt
+[12.671s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.56.4-py3.10.egg-info/top_level.txt
+[12.671s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.56.4-py3.10.egg-info/PKG-INFO
+[12.672s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs
+[12.672s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg
+[12.672s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info_s.c
+[12.672s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics.py
+[12.672s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd_s.c
+[12.673s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd.py
+[12.673s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata.py
+[12.673s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/__init__.py
+[12.673s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info.py
+[12.673s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics_s.c
+[12.674s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata_s.c
+[12.674s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[12.674s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/action
+[12.674s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/action/_triggered_calibration_s.c
+[12.675s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/action/__init__.py
+[12.675s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/action/_triggered_calibration.py
+[12.675s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.675s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv
+[12.675s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_calib_config_read.py
+[12.676s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_calib_config_read_s.c
+[12.676s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/__init__.py
+[12.676s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_calib_config_write_s.c
+[12.676s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info.py
+[12.677s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_calib_config_write.py
+[12.677s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info_s.c
+[12.677s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py
+[12.677s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c
+[12.677s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[12.678s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[12.678s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[12.678s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so
+[12.747s] Listing '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs'...
+[12.747s] Compiling '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py'...
+[12.747s] Listing '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/action'...
+[12.748s] Compiling '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/action/__init__.py'...
+[12.748s] Compiling '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/action/_triggered_calibration.py'...
+[12.748s] Listing '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg'...
+[12.748s] Compiling '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/__init__.py'...
+[12.748s] Compiling '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics.py'...
+[12.749s] Compiling '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info.py'...
+[12.749s] Compiling '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata.py'...
+[12.749s] Compiling '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd.py'...
+[12.749s] Listing '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv'...
+[12.749s] Compiling '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/__init__.py'...
+[12.750s] Compiling '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_calib_config_read.py'...
+[12.750s] Compiling '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_calib_config_write.py'...
+[12.750s] Compiling '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info.py'...
+[12.758s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[12.759s] -- Set runtime path of "/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[12.759s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[12.759s] -- Set runtime path of "/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[12.760s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[12.760s] -- Set runtime path of "/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[12.760s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so
+[12.761s] -- Set runtime path of "/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so" to ""
+[12.761s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl
+[12.761s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl
+[12.761s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl
+[12.762s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.idl
+[12.762s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl
+[12.762s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigRead.idl
+[12.763s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigWrite.idl
+[12.763s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/action/TriggeredCalibration.idl
+[12.763s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg
+[12.763s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg
+[12.764s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg
+[12.764s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.msg
+[12.764s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv
+[12.765s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Request.msg
+[12.765s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Response.msg
+[12.765s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigRead.srv
+[12.765s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigRead_Request.msg
+[12.766s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigRead_Response.msg
+[12.766s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigWrite.srv
+[12.766s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigWrite_Request.msg
+[12.767s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/CalibConfigWrite_Response.msg
+[12.767s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/action/TriggeredCalibration.action
+[12.767s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs
+[12.767s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs
+[12.768s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh
+[12.768s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv
+[12.768s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh
+[12.769s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv
+[12.769s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash
+[12.769s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh
+[12.769s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh
+[12.770s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv
+[12.770s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv
+[12.770s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs
+[12.771s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport.cmake
+[12.771s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.771s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[12.772s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.772s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.772s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.772s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake
+[12.773s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.773s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cppExport.cmake
+[12.773s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.774s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.774s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.774s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.774s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake
+[12.775s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.775s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport.cmake
+[12.775s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[12.775s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[12.776s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.776s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.776s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.776s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.776s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.777s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.777s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake
+[12.777s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake
+[12.777s] -- Installing: /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml
+[12.781s] Invoked command in '/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/realsense/realsense-ros-4.56.4/build/realsense2_camera_msgs
