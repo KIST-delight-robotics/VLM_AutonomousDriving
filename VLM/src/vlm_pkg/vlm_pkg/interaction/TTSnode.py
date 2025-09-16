@@ -1,55 +1,42 @@
+#TTSSubscriber가 해당 토픽을 받아 실제 TTS를 수행
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
+
+# TTS lib
 import requests, time, os, threading
 from pydub import AudioSegment
-
-
-class TriggerSubscriber(Node):
-    def __init__(self):
-        super().__init__('trigger_subscriber')
-        self.get_logger().info("TriggerSubscriber Node started... 지금건너 감지중")
-
-        # partial_text 구독
-        self.subscription = self.create_subscription(
-            String, '/partial_text', self.partial_text_callback, 10
-        )
-
-        # TTS_caller 발행자
-        self.tts_publisher = self.create_publisher(String, 'TTS_caller', 10)
-
-    def partial_text_callback(self, msg):
-        text = msg.data.strip()
-        if "지금 건너" in text:
-            self.get_logger().info("지금 건너도 되냐구 물어봤어요.")
-            self.VLM_tts_caller()
-
-    def VLM_tts_caller(self):
-        self.get_logger().info("지금 건너도 될지 추론중이에요...TTS_caller 발행!")
-        msg = String()
-        msg.data = "지금 건너도 될까요?"  # TTS용 텍스트
-        self.tts_publisher.publish(msg)
 
 
 class TTSSubscriber(Node):
     def __init__(self):
         super().__init__('tts_subscriber')
         self.get_logger().info("TTSSubscriber Node started... 대기중")
-        self.subscription = self.create_subscription(
-            String, 'TTS_caller', self.tts_callback, 10
-        )
-        self.question_confirm_path = "/tmp/question_confirm.mp3"
+        self.subscription = self.create_subscription(String, 'TTS_caller', self.tts_callback, 10)
+        self.vlm_subscription= self.create_subscription(String, '/VLM_talk_phrase',self.vlm_talker,10)
+        self.question_confirm_path = "/home/nvidia/ros2_ws/KIST/VLM_AutonomousDriving/VLM/data/mic/question_confirm.mp3"
+        self.flag = 0 # vlm 발화 상태 flag
 
-    def tts_callback(self, msg):
+    def tts_callback(self, msg): # vlm 발화를 위한 조건 함수 
         text = msg.data
-        self.get_logger().info(f"TTS 요청 수신: {text}")
-        if self.text2speech(text):
-            self.play_question_confirm_tts(self.question_confirm_path)
+        if text == 'O':
+            self.get_logger().info(f"TTS 요청 수신: {text}")
+            self.flag=1
+
+
+    def vlm_talker(self, msg): # vlm 발화 함수
+        vlm_text = msg.data
+        if self.flag==1:
+            self.get_logger().info(f"vlm 텍스트 수신 후 TTS 발행하겠습니다.{vlm_text}")
+            if self.text2speech(text):
+                self.play_question_confirm_tts(self.question_confirm_path)
+            self.flag = 0 
+
 
     def text2speech(self, text):
         """Naver Clova Voice API 호출하여 TTS 생성"""
         client_id = "fo0f88v3wl"
-        client_secret = "KUa8B"
+        client_secret = "KUa8Lcp8JAVE2EK92G0dtyn8ywWKFTH2iKOhnoaB"
         
         url = "https://naveropenapi.apigw.ntruss.com/tts-premium/v1/tts"
         headers = {
@@ -104,12 +91,9 @@ class TTSSubscriber(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-
-    trigger_subscriber = TriggerSubscriber()
     tts_subscriber = TTSSubscriber()
 
     executor = rclpy.executors.MultiThreadedExecutor()
-    executor.add_node(trigger_subscriber)
     executor.add_node(tts_subscriber)
 
     try:
@@ -117,11 +101,15 @@ def main(args=None):
     except KeyboardInterrupt:
         pass
     finally:
-        trigger_subscriber.destroy_node()
         tts_subscriber.destroy_node()
         rclpy.shutdown()
 
 
 if __name__ == '__main__':
     main()
+
+
+
+
+
 
