@@ -169,7 +169,7 @@ Give your answer in a detailed, step-by-step format following the analysis and r
 
 def main(args=None):
     rclpy.init(args=args)
-    node = onetalk_Node()
+    node = VLMtalk_Node()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
