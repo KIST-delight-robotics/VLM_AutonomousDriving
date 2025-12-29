@@ -8,11 +8,8 @@ __pycache__/
 *.pyc
 *.pyo
 
-# VSCode / JetBrains 설정파일 제외 (있을 경우)
+# VSCode / JetBrains 설정파일 제외
 .vscode/
 .idea/
 
-# 기타 불필요한 임시 파일
-*.swp
-*.bak
 
