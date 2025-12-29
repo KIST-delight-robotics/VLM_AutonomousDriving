@@ -1,0 +1,18 @@
+# ROS2 build / install / log 폴더 제외
+build/
+install/
+log/
+
+# Python 임시 파일 제외
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode / JetBrains 설정파일 제외 (있을 경우)
+.vscode/
+.idea/
+
+# 기타 불필요한 임시 파일
+*.swp
+*.bak
+
