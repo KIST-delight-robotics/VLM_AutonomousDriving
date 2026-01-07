@@ -16,7 +16,9 @@
 #include "common/ros2_sport_client.h"
 #include "unitree_go/msg/sport_mode_state.hpp"
 
-#define TOPIC_HIGHSTATE "lf/sportmodestate"
+#define TOPIC_HIGHSTATE "/lf/sportmodestate"
+#include <atomic>
+#include <mutex>
 
 // --- Non-blocking keyboard 입력용 함수 (주의: getchar()는 사실상 blocking임) ---
 int getch()
@@ -45,7 +47,7 @@ public:
                 "  a/d : vy += 0.1 / vy -= 0.1\n"
                 "  q/e : wz += 0.1 / wz -= 0.1\n"
                 "  space: StopMove (and reset v=0)\n"
-                "  1: StandUp, 2: BalanceStand, z: Sit, x: RiseSit\n"
+                "  1: StandUp, 2: BalanceStand, z: StandDown, x: RiseSit\n"
                 "  r: reset (vx=1.0, vy=0, wz=0)\n"
                 "  Ctrl+C to quit.");
 
@@ -66,7 +68,7 @@ private:
 
   void TeleopLoop() {
     // ---- 기본값: x방향 1.0으로 출발 ----
-    double vx = 1.0;
+    double vx = 0.0;
     double vy = 0.0;
     double wz = 0.0;
 
@@ -106,7 +108,7 @@ private:
 
       else if (c == '1') { sport_client_.StandUp(req_); continue; }
       else if (c == '2') { sport_client_.BalanceStand(req_); continue; }
-      else if (c == 'z') { sport_client_.Sit(req_); continue; }
+      else if (c == 'z') { sport_client_.StandDown(req_); continue; }
       else if (c == 'x') { sport_client_.RiseSit(req_); continue; }
 
       else if (c == 'r') {
