@@ -50,7 +50,7 @@ Execution command:
 ros2 launch bev_cuda bev.launch.py
 
 File : 
-/Interaction_AutonomousNavigation/Autonomous_Navigation/src/bev_cuda/bev_cuda/bev_node_success.py
+/Interaction_AutonomousNavigation/Autonomous_Navigation/src/bev_cuda/bev_cuda/bev_node.py
 
 ---
 
